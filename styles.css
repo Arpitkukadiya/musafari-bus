@@ -1,0 +1,66 @@
+body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* min-height: 100vh; */
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .btn-primary {
+            background-color: #6a11cb;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #7f25df;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #6a11cb;
+        }
+
+        .alert {
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .text-center a {
+            color: #6a11cb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .text-center a:hover {
+            text-decoration: underline;
+        }
+
+        .card-title {
+            text-align: center;
+            color: #6a11cb;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
