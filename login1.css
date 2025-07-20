@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: aliceblue;
+
+}
+
+.register-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    /* Slightly more rounded corners */
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    /* Softer shadow */
+}
+
+.register-card h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+label{
+    font-size: 1.08rem;
+}
+.btn-custom {
+    background-color: #2575fc;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 9px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #1e63d4;
+    color: white;
+
+}
+
+.btn-custom:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+.text-center p a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-center p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .register-card {
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
